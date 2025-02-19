@@ -1,0 +1,97 @@
+[21-Nov-2023 10:23:10 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 10:30:42 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 10:33:55 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 10:55:03 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 10:55:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: array_merge() does not accept unknown named parameters in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php:84
+Stack trace:
+#0 [internal function]: array_merge()
+#1 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php(84): call_user_func_array()
+#2 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(387): Composer\DependencyResolver\DefaultPolicy->selectPreferredPackages()
+#3 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(742): Composer\DependencyResolver\Solver->selectAndInstall()
+#4 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(231): Composer\DependencyResolver\Solver->runSat()
+#5 phar:///usr/local/bin/composer/src/Composer/Installer.php(475): Composer\DependencyResolver\Solver->solve()
+#6 phar:///usr/local/bin/composer/src/Composer/Installer.php(229): Composer\Installer->doInstall()
+#7 phar:///usr/local/bin/composer/src/Composer/Command/InstallCommand.php(122): Composer\Installer->run()
+#8 phar:///usr/local/bin/composer/vendor/symfony/console/Command/Command.php(245): Composer\Command\InstallCommand->execute()
+#9 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(835): Symfony\Component\Console\Command\Command->run()
+#10 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(185): Symfony\Component\Console\Application->doRunCommand()
+#11 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(267): Symfony\Component\Console\Application->doRun()
+#12 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(117): Composer\Console\Application->doRun()
+#13 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(106): Symfony\Component\Console\Application->run()
+#14 phar:///usr/local/bin/composer/bin/composer(61): Composer\Console\Application->run()
+#15 /usr/local/bin/composer(24): require('phar:///usr/loc...')
+#16 {main}
+  thrown in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php on line 84
+[21-Nov-2023 11:39:53 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 11:40:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: array_merge() does not accept unknown named parameters in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php:84
+Stack trace:
+#0 [internal function]: array_merge()
+#1 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php(84): call_user_func_array()
+#2 phar:///usr/local/bin/composer/src/Composer/Installer.php(1034): Composer\DependencyResolver\DefaultPolicy->selectPreferredPackages()
+#3 phar:///usr/local/bin/composer/src/Composer/Installer.php(469): Composer\Installer->processDevPackages()
+#4 phar:///usr/local/bin/composer/src/Composer/Installer.php(229): Composer\Installer->doInstall()
+#5 phar:///usr/local/bin/composer/src/Composer/Command/UpdateCommand.php(163): Composer\Installer->run()
+#6 phar:///usr/local/bin/composer/vendor/symfony/console/Command/Command.php(245): Composer\Command\UpdateCommand->execute()
+#7 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(835): Symfony\Component\Console\Command\Command->run()
+#8 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(185): Symfony\Component\Console\Application->doRunCommand()
+#9 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(267): Symfony\Component\Console\Application->doRun()
+#10 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(117): Composer\Console\Application->doRun()
+#11 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(106): Symfony\Component\Console\Application->run()
+#12 phar:///usr/local/bin/composer/bin/composer(61): Composer\Console\Application->run()
+#13 /usr/local/bin/composer(24): require('phar:///usr/loc...')
+#14 {main}
+  thrown in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php on line 84
+[21-Nov-2023 11:41:06 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 14:37:25 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 14:37:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: array_merge() does not accept unknown named parameters in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php:84
+Stack trace:
+#0 [internal function]: array_merge()
+#1 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php(84): call_user_func_array()
+#2 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(387): Composer\DependencyResolver\DefaultPolicy->selectPreferredPackages()
+#3 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(742): Composer\DependencyResolver\Solver->selectAndInstall()
+#4 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php(231): Composer\DependencyResolver\Solver->runSat()
+#5 phar:///usr/local/bin/composer/src/Composer/Installer.php(475): Composer\DependencyResolver\Solver->solve()
+#6 phar:///usr/local/bin/composer/src/Composer/Installer.php(229): Composer\Installer->doInstall()
+#7 phar:///usr/local/bin/composer/src/Composer/Command/InstallCommand.php(122): Composer\Installer->run()
+#8 phar:///usr/local/bin/composer/vendor/symfony/console/Command/Command.php(245): Composer\Command\InstallCommand->execute()
+#9 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(835): Symfony\Component\Console\Command\Command->run()
+#10 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(185): Symfony\Component\Console\Application->doRunCommand()
+#11 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(267): Symfony\Component\Console\Application->doRun()
+#12 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(117): Composer\Console\Application->doRun()
+#13 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(106): Symfony\Component\Console\Application->run()
+#14 phar:///usr/local/bin/composer/bin/composer(61): Composer\Console\Application->run()
+#15 /usr/local/bin/composer(24): require('phar:///usr/loc...')
+#16 {main}
+  thrown in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php on line 84
+[21-Nov-2023 14:46:15 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 14:49:26 UTC] PHP Warning:  require(/home/pejunico/erp.pejuni.com/vendor/autoload.php): Failed to open stream: No such file or directory in /home/pejunico/erp.pejuni.com/artisan on line 18
+[21-Nov-2023 14:49:26 UTC] PHP Warning:  require(/home/pejunico/erp.pejuni.com/vendor/autoload.php): Failed to open stream: No such file or directory in /home/pejunico/erp.pejuni.com/artisan on line 18
+[21-Nov-2023 14:49:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/pejunico/erp.pejuni.com/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pejunico/erp.pejuni.com/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/pejunico/erp.pejuni.com/artisan on line 18
+[21-Nov-2023 14:53:37 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 14:57:34 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 134217736 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleSet.php on line 83
+[21-Nov-2023 15:01:22 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 15:01:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: array_merge() does not accept unknown named parameters in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php:84
+Stack trace:
+#0 [internal function]: array_merge()
+#1 phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php(84): call_user_func_array()
+#2 phar:///usr/local/bin/composer/src/Composer/Installer.php(1034): Composer\DependencyResolver\DefaultPolicy->selectPreferredPackages()
+#3 phar:///usr/local/bin/composer/src/Composer/Installer.php(469): Composer\Installer->processDevPackages()
+#4 phar:///usr/local/bin/composer/src/Composer/Installer.php(229): Composer\Installer->doInstall()
+#5 phar:///usr/local/bin/composer/src/Composer/Command/UpdateCommand.php(163): Composer\Installer->run()
+#6 phar:///usr/local/bin/composer/vendor/symfony/console/Command/Command.php(245): Composer\Command\UpdateCommand->execute()
+#7 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(835): Symfony\Component\Console\Command\Command->run()
+#8 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(185): Symfony\Component\Console\Application->doRunCommand()
+#9 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(267): Symfony\Component\Console\Application->doRun()
+#10 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(117): Composer\Console\Application->doRun()
+#11 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(106): Symfony\Component\Console\Application->run()
+#12 phar:///usr/local/bin/composer/bin/composer(61): Composer\Console\Application->run()
+#13 /usr/local/bin/composer(24): require('phar:///usr/loc...')
+#14 {main}
+  thrown in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/DefaultPolicy.php on line 84
+[21-Nov-2023 15:03:39 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 15:07:20 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 167772160 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleSet.php on line 90
+[21-Nov-2023 15:10:53 UTC] PHP Deprecated:  Return type of Symfony\Component\Console\Helper\HelperSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in phar:///usr/local/bin/composer/vendor/symfony/console/Helper/HelperSet.php on line 112
+[21-Nov-2023 15:17:27 UTC] PHP Fatal error:  Allowed memory size of 2147483648 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/Solver.php on line 223
