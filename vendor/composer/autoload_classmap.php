@@ -46,6 +46,7 @@ return array(
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Controllers\\IncomeCategoryController' => $baseDir . '/app/Http/Controllers/IncomeCategoryController.php',
     'App\\Http\\Controllers\\IncomeController' => $baseDir . '/app/Http/Controllers/IncomeController.php',
+    'App\\Http\\Controllers\\InvoiceController' => $baseDir . '/app/Http/Controllers/InvoiceController.php',
     'App\\Http\\Controllers\\LeaveReportController' => $baseDir . '/app/Http/Controllers/LeaveReportController.php',
     'App\\Http\\Controllers\\LeaveViewController' => $baseDir . '/app/Http/Controllers/LeaveViewController.php',
     'App\\Http\\Controllers\\Leave_applyController' => $baseDir . '/app/Http/Controllers/Leave_applyController.php',

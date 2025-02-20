@@ -662,6 +662,7 @@ class ComposerStaticInitc34601538c318bfe94e80cae5053b5e2
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\IncomeCategoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/IncomeCategoryController.php',
         'App\\Http\\Controllers\\IncomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/IncomeController.php',
+        'App\\Http\\Controllers\\InvoiceController' => __DIR__ . '/../..' . '/app/Http/Controllers/InvoiceController.php',
         'App\\Http\\Controllers\\LeaveReportController' => __DIR__ . '/../..' . '/app/Http/Controllers/LeaveReportController.php',
         'App\\Http\\Controllers\\LeaveViewController' => __DIR__ . '/../..' . '/app/Http/Controllers/LeaveViewController.php',
         'App\\Http\\Controllers\\Leave_applyController' => __DIR__ . '/../..' . '/app/Http/Controllers/Leave_applyController.php',
