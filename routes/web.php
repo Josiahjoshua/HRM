@@ -47,7 +47,8 @@ use App\Http\Controllers\BalanceSheetItemController;
 use App\Http\Controllers\BankController;
 use App\Http\Controllers\PettyCashController;
 use App\Http\Controllers\CashController;
-
+use App\Http\Controllers\PerformanceMetricController;
+use App\Http\Controllers\TalentAcquisitionController;
 
 
 
@@ -235,7 +236,8 @@ Route::resource('cash', CashController::class);
 Route::resource('pettyCash', PettyCashController::class);
 
 
-
+Route::resource('performance', PerformanceMetricController::class);
+Route::resource('talent', TalentAcquisitionController::class);
 
 
 
